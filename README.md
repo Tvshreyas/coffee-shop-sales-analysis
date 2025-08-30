@@ -70,89 +70,72 @@ coffee-shop-sales-analysis/
 │── coffee-dashboard.png       # Dashboard snapshot
 │── README.md                  # Project documentation
 
-##🧹 Data Cleaning & Preparation
 
-Removed duplicates and missing values.
+---
 
-Standardized product categories and names.
 
-Created calculated fields: Total Bill, Day of Week, Hour of Sale.
+## 🧹 Data Cleaning & Preparation  
+- Removed duplicates and missing values  
+- Standardized product categories and names  
+- Created calculated fields: **Total Bill, Day of Week, Hour of Sale**  
+- Ensured consistency for time-based analysis  
 
-Ensured consistency for time-based analysis.
+---
 
-##🔎 Exploratory Data Analysis (EDA)
+## 🔎 Exploratory Data Analysis (EDA)  
+- **Time Trends** – Hourly & daily sales distribution  
+- **Branch Analysis** – Location-based revenue contribution  
+- **Product Demand** – Category and size preferences  
+- **Customer Behavior** – Purchase quantity per transaction  
 
-Time Trends – Hourly & daily sales distribution.
+---
 
-Branch Analysis – Location-based revenue contribution.
+## 📊 Research Questions & Key Findings  
+- **When are sales highest?**  
+  - Morning rush (**7–11 AM**) → 40%+ of daily revenue  
+  - Secondary evening peak (**4–6 PM**)  
 
-Product Demand – Category and size preferences.
+- **Which branches perform best?**  
+  - Astoria & Hell’s Kitchen generate ~45% of total revenue  
 
-Customer Behavior – Purchase quantity per transaction.
+- **Which products drive revenue?**  
+  - Barista Espresso and Brewed Chai Tea dominate sales  
+  - Bakery items perform well as cross-sells  
 
-##📊 Research Questions & Key Findings
+- **What is customer behavior like?**  
+  - Most customers buy **1–2 items**  
+  - **Regular & Large** sizes = 70% of drinks sold  
 
-When are sales highest?
+---
 
-Morning rush (7–11 AM) → 40%+ of daily revenue.
+## 📊 Dashboard KPIs  
+- **Total Sales Revenue**: $698,812  
+- **Total Transactions**: 14,916  
+- **Average Bill per Person**: $4.69  
+- **Average Orders per Person**: 1.44  
 
-Secondary evening peak (4–6 PM).
+---
 
-Which branches perform best?
+## 🖥 How to Run This Project  
+- Clone or download the repository  
+- Open **coffee-shop-sales.xlsx**  
+- Enable Excel add-ins (**Power Query & Power Pivot**)  
+- Go to the **Dashboard** sheet  
+- Use slicers/filters to interact with the data  
 
-Astoria & Hell’s Kitchen generate ~45% of total revenue.
+---
 
-Which products drive revenue?
+## ✅ Final Recommendations  
+- Allocate more staff during **morning rush (7–11 AM)**  
+- Launch **morning combo offers** to maximize peak sales  
+- Promote **bakery items as cross-sells** with coffee orders  
+- Run **weekend loyalty offers**, since spending is higher  
+- Share successful practices from **Astoria & Hell’s Kitchen** with underperforming branches  
 
-Barista Espresso and Brewed Chai Tea dominate sales.
+---
 
-Bakery items perform well as cross-sells.
-
-What is customer behavior like?
-
-Most buy 1–2 items.
-
-Regular & Large sizes = 70% of drinks sold.
-
-##📊 Dashboard
-
-KPIs included in the dashboard:
-
-Total Sales Revenue: $698,812
-
-Total Transactions: 14,916
-
-Average Bill per Person: $4.69
-
-Average Orders per Person: 1.44
-
-##🖥 How to Run This Project
-
-Clone or download the repository.
-
-Open coffee-shop-sales.xlsx.
-
-Enable Excel add-ins (Power Query & Power Pivot).
-
-Go to the Dashboard sheet.
-
-Use slicers/filters to interact with the data.
-
-##✅ Final Recommendations
-
-Allocate more staff during morning rush (7–11 AM).
-
-Launch morning combo offers to maximize peak sales.
-
-Promote bakery items as cross-sells with coffee orders.
-
-Run weekend loyalty offers, since spending is higher.
-
-Share successful practices from Astoria & Hell’s Kitchen with underperforming branches.
-
-##👤 Author & Contact
-
-Created by Shreyas Kumar – aspiring Data Analyst.
-📧 E-MAIL: shreyas291103@gmail.com
-🔗www.linkedin.com/in/shreyas-kumar-7868ab228
+## 👤 Author & Contact  
+- **Created by**: Shreyas Kumar – Aspiring Data Analyst  
+- 📧 **Email**: shreyas291103@gmail.com  
+- 🔗 **LinkedIn**: [www.linkedin.com/in/shreyas-kumar-7868ab228]
 
