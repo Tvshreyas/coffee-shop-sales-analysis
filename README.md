@@ -63,7 +63,7 @@ coffee-shop-sales-analysis/
 │── coffee-dashboard.png       # Dashboard snapshot
 │── README.md                  # Project documentation
 
-
+  
 ---
 
 
