@@ -70,7 +70,7 @@ coffee-shop-sales-analysis/
 │── coffee-dashboard.png       # Dashboard snapshot
 │── README.md                  # Project documentation
 
-🧹 Data Cleaning & Preparation
+##🧹 Data Cleaning & Preparation
 
 Removed duplicates and missing values.
 
@@ -80,7 +80,7 @@ Created calculated fields: Total Bill, Day of Week, Hour of Sale.
 
 Ensured consistency for time-based analysis.
 
-🔎 Exploratory Data Analysis (EDA)
+##🔎 Exploratory Data Analysis (EDA)
 
 Time Trends – Hourly & daily sales distribution.
 
@@ -90,7 +90,7 @@ Product Demand – Category and size preferences.
 
 Customer Behavior – Purchase quantity per transaction.
 
-📊 Research Questions & Key Findings
+##📊 Research Questions & Key Findings
 
 When are sales highest?
 
@@ -114,7 +114,7 @@ Most buy 1–2 items.
 
 Regular & Large sizes = 70% of drinks sold.
 
-📊 Dashboard
+##📊 Dashboard
 
 KPIs included in the dashboard:
 
@@ -126,7 +126,7 @@ Average Bill per Person: $4.69
 
 Average Orders per Person: 1.44
 
-🖥 How to Run This Project
+##🖥 How to Run This Project
 
 Clone or download the repository.
 
@@ -138,7 +138,7 @@ Go to the Dashboard sheet.
 
 Use slicers/filters to interact with the data.
 
-✅ Final Recommendations
+##✅ Final Recommendations
 
 Allocate more staff during morning rush (7–11 AM).
 
@@ -150,7 +150,7 @@ Run weekend loyalty offers, since spending is higher.
 
 Share successful practices from Astoria & Hell’s Kitchen with underperforming branches.
 
-👤 Author & Contact
+##👤 Author & Contact
 
 Created by Shreyas Kumar – aspiring Data Analyst.
 📧 E-MAIL: shreyas291103@gmail.com
