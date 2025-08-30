@@ -1,12 +1,5 @@
 # ☕ Coffee Shop Sales Analysis  
-
-![Dashboard Preview](coffee-dashboard.png)  
-
-![Excel Badge](https://img.shields.io/badge/Tool-Excel-green?logo=microsoft-excel&logoColor=white) 
-![Power Query Badge](https://img.shields.io/badge/Tool-Power%20Query-blue?logo=microsoft&logoColor=white) 
-![Power Pivot Badge](https://img.shields.io/badge/Tool-Power%20Pivot-orange?logo=microsoft&logoColor=white) 
-![Data Analysis Badge](https://img.shields.io/badge/Focus-Data%20Analysis-yellow)  
-![Business Insights Badge](https://img.shields.io/badge/Focus-Business%20Insights-red)  
+  
 
 Analyzing sales performance, customer behavior, and product demand to provide actionable insights for business growth using **Excel, Power Query, and Power Pivot**.  
 
