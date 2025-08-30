@@ -1,65 +1,158 @@
 # ☕ Coffee Shop Sales Analysis  
 
-## 📌 Project Overview  
-This project analyzes **coffee shop transaction data** to uncover sales trends, customer behavior, and revenue drivers.  
-Using **Excel, Power Query, and Power Pivot**, I transformed raw sales data into an **interactive dashboard** and extracted **actionable business insights**.  
+![Dashboard Preview](coffee-dashboard.png)  
 
-The project demonstrates my ability to:  
-- Clean and model data using **Power Query & Power Pivot**  
-- Create **KPIs and visual dashboards** in Excel  
-- Translate data into **business recommendations**  
+![Excel Badge](https://img.shields.io/badge/Tool-Excel-green?logo=microsoft-excel&logoColor=white) 
+![Power Query Badge](https://img.shields.io/badge/Tool-Power%20Query-blue?logo=microsoft&logoColor=white) 
+![Power Pivot Badge](https://img.shields.io/badge/Tool-Power%20Pivot-orange?logo=microsoft&logoColor=white) 
+![Data Analysis Badge](https://img.shields.io/badge/Focus-Data%20Analysis-yellow)  
+![Business Insights Badge](https://img.shields.io/badge/Focus-Business%20Insights-red)  
 
----
-
-## 📂 Dataset Details  
-- File: `coffee shop sales.xlsx`  
-- Rows: ~15,000 transactions  
-- Time Period: June 2023  
-- Key fields:  
-  - `Transaction Date` & `Time` – When sales occurred  
-  - `Store Location` – Coffee shop branches  
-  - `Product Category` & `Product Detail` – Items sold  
-  - `Transaction Quantity`, `Unit Price`, `Total Bill` – Sales values  
-  - Derived fields: Month, Day Name, Hour  
+Analyzing sales performance, customer behavior, and product demand to provide actionable insights for business growth using **Excel, Power Query, and Power Pivot**.  
 
 ---
 
-## 📊 Executive KPIs  
-- **Total Sales Revenue**: **$698,812**  
-- **Total Transactions (Footfall)**: **14,916 customers**  
-- **Average Bill per Person**: **$4.69**  
-- **Average Orders per Person**: **1.44**  
+## 📑 Table of Contents  
+- [Overview](#overview)  
+- [Business Problem](#business-problem)  
+- [Dataset](#dataset)  
+- [Tools & Technologies](#tools--technologies)  
+- [Project Structure](#project-structure)  
+- [Data Cleaning & Preparation](#data-cleaning--preparation)  
+- [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)  
+- [Research Questions & Key Findings](#research-questions--key-findings)  
+- [Dashboard](#dashboard)  
+- [How to Run This Project](#how-to-run-this-project)  
+- [Final Recommendations](#final-recommendations)  
+- [Author & Contact](#author--contact)  
 
 ---
 
-## 🔍 Key Outcomes & Insights  
+## 📌 Overview  
+This project evaluates **coffee shop transactions (15K+ rows, June 2023)** to uncover sales patterns, customer purchasing behavior, and branch-level performance.  
+It demonstrates **data cleaning, modeling, visualization, and business storytelling skills** by turning raw data into actionable insights.  
 
-### ⏰ Sales Trends  
-- Morning hours (**7 AM – 11 AM**) generate **40%+ of daily sales**.  
-- Evening peak occurs between **4 PM – 6 PM**.  
-- Weekends have **higher average bill sizes** than weekdays.  
+---
 
-### 🏬 Store Performance  
-- **Astoria** and **Hell’s Kitchen** branches generated ~45% of revenue.  
-- Underperforming stores present opportunities for **localized promotions**.  
+## ❓ Business Problem  
+The coffee shop management wanted to:  
+- Identify **peak sales hours** to optimize staffing.  
+- Understand **branch performance** to guide promotions.  
+- Analyze **customer purchase behavior** to improve revenue.  
+- Recommend strategies to enhance **overall profitability**.  
 
-### ☕ Product Performance  
-- **Coffee** is the top category (**39% of revenue**).  
-- **Barista Espresso** and **Brewed Chai Tea** are best-selling items.  
-- **Bakery products** are strong cross-sells, often bought with drinks.  
+---
 
-### 👥 Customer Behavior  
-- Customers usually purchase **1–2 items per order**.  
-- **Regular and Large sizes** make up **70% of all drinks sold**.  
-- Customers show a preference for **value-based purchases**.  
+## 📂 Dataset  
+- **Size:** ~15,000 rows (June 2023)  
+- **Features:**  
+  - Transaction Date & Time  
+  - Store Location  
+  - Product Category & Detail  
+  - Transaction Quantity  
+  - Unit Price  
+  - Total Bill (derived)  
 
+---
 
-## 🛠 Tools & Skills Demonstrated  
-- **Excel** → Data cleaning, pivot tables, dashboards  
-- **Power Query** → Data transformation & preparation  
-- **Power Pivot** → Data modeling & DAX calculations  
-- **Business Analytics** → Trend analysis, KPIs, actionable insights  
-- **Data Storytelling** → Presenting findings for decision-making  
+## 🛠 Tools & Technologies  
+- **Excel** – Dashboards, Pivot Tables  
+- **Power Query** – Data Cleaning & Transformation  
+- **Power Pivot** – Data Modeling & DAX  
 
+---
 
+## 📁 Project Structure  
+```plaintext
+coffee-shop-sales-analysis/
+│── coffee-shop-sales.xlsx     # Main analysis file with dashboards
+│── dataset.csv                # Raw dataset
+│── coffee-dashboard.png       # Dashboard snapshot
+│── README.md                  # Project documentation
+
+🧹 Data Cleaning & Preparation
+
+Removed duplicates and missing values.
+
+Standardized product categories and names.
+
+Created calculated fields: Total Bill, Day of Week, Hour of Sale.
+
+Ensured consistency for time-based analysis.
+
+🔎 Exploratory Data Analysis (EDA)
+
+Time Trends – Hourly & daily sales distribution.
+
+Branch Analysis – Location-based revenue contribution.
+
+Product Demand – Category and size preferences.
+
+Customer Behavior – Purchase quantity per transaction.
+
+📊 Research Questions & Key Findings
+
+When are sales highest?
+
+Morning rush (7–11 AM) → 40%+ of daily revenue.
+
+Secondary evening peak (4–6 PM).
+
+Which branches perform best?
+
+Astoria & Hell’s Kitchen generate ~45% of total revenue.
+
+Which products drive revenue?
+
+Barista Espresso and Brewed Chai Tea dominate sales.
+
+Bakery items perform well as cross-sells.
+
+What is customer behavior like?
+
+Most buy 1–2 items.
+
+Regular & Large sizes = 70% of drinks sold.
+
+📊 Dashboard
+
+KPIs included in the dashboard:
+
+Total Sales Revenue: $698,812
+
+Total Transactions: 14,916
+
+Average Bill per Person: $4.69
+
+Average Orders per Person: 1.44
+
+🖥 How to Run This Project
+
+Clone or download the repository.
+
+Open coffee-shop-sales.xlsx.
+
+Enable Excel add-ins (Power Query & Power Pivot).
+
+Go to the Dashboard sheet.
+
+Use slicers/filters to interact with the data.
+
+✅ Final Recommendations
+
+Allocate more staff during morning rush (7–11 AM).
+
+Launch morning combo offers to maximize peak sales.
+
+Promote bakery items as cross-sells with coffee orders.
+
+Run weekend loyalty offers, since spending is higher.
+
+Share successful practices from Astoria & Hell’s Kitchen with underperforming branches.
+
+👤 Author & Contact
+
+Created by Shreyas Kumar – aspiring Data Analyst.
+📧 E-MAIL: shreyas291103@gmail.com
+🔗www.linkedin.com/in/shreyas-kumar-7868ab228
 
