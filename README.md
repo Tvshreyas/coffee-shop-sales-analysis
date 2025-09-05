@@ -22,7 +22,7 @@ Analyzing sales performance, customer behavior, and product demand to provide ac
 ---
 
 ## 📌 Overview  
-This project evaluates **coffee shop transactions (15K+ rows, June 2023)** to uncover sales patterns, customer purchasing behavior, and branch-level performance.  
+This project evaluates **coffee shop transactions (150K rows, June 2023)** to uncover sales patterns, customer purchasing behavior, and branch-level performance.  
 It demonstrates **data cleaning, modeling, visualization, and business storytelling skills** by turning raw data into actionable insights.  
 
 ---
