@@ -37,7 +37,7 @@ The coffee shop management wanted to:
 ---
 
 ## 📂 Dataset  
-- **Size:** ~15,000 rows (June 2023)  
+- **Size:** ~150,000 rows (June 2023)  
 - **Features:**  
   - Transaction Date & Time  
   - Store Location  
